@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+    <!-- gallery section start -->
+    <div class="gallery">
+    <div class="gallery-header">
+        <h1>Gallery</h1>
+    </div>
+
+    <div class="gallery-wrapper">
+        
+        <button class="nav-btn left-btn" id="prevBtn">&#10094;</button>
+
+        <div class="gallery-container" id="galleryContainer">
+            <div class="gallery-item">
+                <img src="assets/img1.jpeg" alt="Image 1">
+                <p>Description 1</p>
+            </div>
+            <div class="gallery-item center">
+                <img src="assets/img2.jpeg" alt="Image 2">
+                <p>Description 2</p>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/img3.jpeg" alt="Image 3">
+                <p>Description 3</p>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/img4.jpg" alt="Image 4">
+                <p>Description 4</p>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/img5.jpeg" alt="Image 5">
+                <p>Description 5</p>
+            </div>
+        </div>
+
+        
+        <button class="nav-btn right-btn" id="nextBtn">&#10095;</button>
+    </div>
+</div>
+
+<!-- gallery section ends -->
+
+<!-- tournmants section starts -->
+  <div class="bg-gray-900 text-white tournament">
+    <div class="container mx-auto p-8">
+        <h1 class="text-4xl font-bold mb-8">TOURNAMENT</h1>
+
+        <!-- Filter Buttons -->
+        <div class="flex justify-end mb-4">
+            <button class="bg-gray-800 px-4 py-2 text-white mr-2">All Games</button>
+            <button class="bg-gray-800 px-4 py-2 text-white">Filter</button>
+        </div>
+
+        <!-- Tournament Cards -->
+        <div class="grid grid-cols-4 gap-4">
+            <!-- Cricket World Cup -->
+            <div class="bg-gray-800 p-4 rounded-lg">
+                <div class="relative">
+                    <img src="assets/t1.jpg" alt="Cricket World Cup match" class="w-full h-40 object-cover rounded-lg">
+                    <span class="absolute top-2 left-2 bg-purple-500 text-xs px-2 py-1 rounded text-white">BIG PRIZEPOOL</span>
+                </div>
+                <h2 class="mt-4 text-xl font-bold">Cricket World Cup</h2>
+                <p class="text-green-500 mt-2">Free</p>
+                <p class="text-gray-400">Sat, 15 Oct 2022</p>
+                <p class="text-gray-400">Online Tournament</p>
+                <div class="flex justify-between items-center mt-4">
+                    <button class="bg-pink-500 text-white px-4 py-2 rounded">Join Tournament</button>
+                    <i class="fas fa-bookmark text-white"></i>
+                </div>
+            </div>
+
+            <!-- IPL 2024 Live -->
+            <div class="bg-gray-800 p-4 rounded-lg relative">
+                <div class="relative">
+                    <img src="assets/t2.jpg" alt="IPL Live Tournament" class="w-full h-40 object-cover rounded-lg">
+                    <span class="absolute top-2 left-2 bg-purple-500 text-xs px-2 py-1 rounded text-white">BIG PRIZEPOOL</span>
+                    <span class="absolute top-2 right-2 bg-red-500 text-xs px-2 py-1 rounded text-white">LIVE</span>
+                </div>
+                <h2 class="mt-4 text-xl font-bold">IPL 2024</h2>
+                <p class="text-red-500 mt-2">Rp. 500.000,00</p>
+                <p class="text-gray-400">Sat, 18 Oct 2022</p>
+                <p class="text-gray-400">Online Tournament</p>
+                <div class="flex justify-between items-center mt-4">
+                    <button class="bg-pink-500 text-white px-4 py-2 rounded">Join Tournament</button>
+                    <i class="fas fa-bookmark text-white"></i>
+                </div>
+            </div>
+
+            <!-- T20 Champions Cup -->
+            <div class="bg-gray-800 p-4 rounded-lg">
+                <div class="relative">
+                    <img src="assets/t3.jpg" alt="T20 Champions Cup match" class="w-full h-40 object-cover rounded-lg">
+                    <span class="absolute top-2 left-2 bg-purple-500 text-xs px-2 py-1 rounded text-white">BIG PRIZEPOOL</span>
+                </div>
+                <h2 class="mt-4 text-xl font-bold">T20 Champions Cup</h2>
+                <p class="text-red-500 mt-2">Rp. 150.000,00</p>
+                <p class="text-gray-400">Sat, 20 Oct 2022</p>
+                <p class="text-gray-400">Online Tournament</p>
+                <div class="flex justify-between items-center mt-4">
+                    <button class="bg-pink-500 text-white px-4 py-2 rounded">Join Tournament</button>
+                    <i class="fas fa-bookmark text-white"></i>
+                </div>
+            </div>
+
+            <!-- Ashes Series Cup -->
+            <div class="bg-gray-800 p-4 rounded-lg">
+                <div class="relative">
+                    <img src="assets/t4.jpg" alt="Ashes Series match" class="w-full h-40 object-cover rounded-lg">
+                    <span class="absolute top-2 left-2 bg-purple-500 text-xs px-2 py-1 rounded text-white">BIG PRIZEPOOL</span>
+                </div>
+                <h2 class="mt-4 text-xl font-bold">Ashes Series Cup</h2>
+                <p class="text-green-500 mt-2">Free</p>
+                <p class="text-gray-400">Sat, 22 Oct 2022</p>
+                <p class="text-gray-400">Online Tournament</p>
+                <div class="flex justify-between items-center mt-4">
+                    <button class="bg-pink-500 text-white px-4 py-2 rounded">Join Tournament</button>
+                    <i class="fas fa-bookmark text-white"></i>
+                </div>
+            </div>
+
+            <!-- Test Championship 2024 -->
+            <div class="bg-gray-800 p-4 rounded-lg">
+                <div class="relative">
+                    <img src="assets/t5.jpg" alt="Test Championship match" class="w-full h-40 object-cover rounded-lg">
+                    <span class="absolute top-2 left-2 bg-purple-500 text-xs px-2 py-1 rounded text-white">BIG PRIZEPOOL</span>
+                </div>
+                <h2 class="mt-4 text-xl font-bold">Test Championship 2024</h2>
+                <p class="text-red-500 mt-2">Rp. 200.000,00</p>
+                <p class="text-gray-400">Sat, 25 Oct 2022</p>
+                <p class="text-gray-400">Online Tournament</p>
+                <div class="flex justify-between items-center mt-4">
+                    <button class="bg-pink-500 text-white px-4 py-2 rounded">Join Tournament</button>
+                    <i class="fas fa-bookmark text-white"></i>
+                </div>
+            </div>
+
+            <!-- BBL 2024 Live -->
+            <div class="bg-gray-800 p-4 rounded-lg relative">
+                <div class="relative">
+                    <img src="assets/t6.jpg" alt="BBL 2024 match" class="w-full h-40 object-cover rounded-lg">
+                    <span class="absolute top-2 left-2 bg-purple-500 text-xs px-2 py-1 rounded text-white">BIG PRIZEPOOL</span>
+                    <span class="absolute top-2 right-2 bg-red-500 text-xs px-2 py-1 rounded text-white">LIVE</span>
+                </div>
+                <h2 class="mt-4 text-xl font-bold">BBL 2024</h2>
+                <p class="text-red-500 mt-2">Rp. 400.000,00</p>
+                <p class="text-gray-400">Sat, 30 Oct 2022</p>
+                <p class="text-gray-400">Online Tournament</p>
+                <div class="flex justify-between items-center mt-4">
+                    <button class="bg-pink-500 text-white px-4 py-2 rounded">Join Tournament</button>
+                    <i class="fas fa-bookmark text-white"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  </div>
+<!-- tournamnts section ends -->
+
+
+<!-- history section starts-->
+<div class="history-container">
+  
+    <div class="left-section">
+      <h1 class="title">
+       HISTORY OF
+        <br />
+        TOURNMENTS
+      </h1>
+      <div class="image-container">
+        <img
+          src="assets/poster.jpeg"
+          alt="Cricket team "
+          class="award-image"
+        />
+      </div>
+    </div>
+    <div class="right-section">
+      <div class="awards-section">
+       
+        <div class="award-item">
+          <img
+            src="assets/his1.jpg"
+            alt="Award icon for 2017"
+            class="award-icon"
+          />
+          <div>
+            <h2 class="award-year">2017</h2>
+            <p class="award-description">
+                XYZ Organization launched its inaugural T20 tournament with 8 local teams. Team Strikers won in a nail-biting super-over final. John Doe was the star player, contributing with both bat and ball. The event set the foundation for future cricketing success.
+            </p>
+          </div>
+        </div>
+
+        <div class="award-item">
+          <img
+            src="assets/his2.jpg"
+            alt="Award icon for 2019"
+            class="award-icon"
+            
+          />
+          <div>
+            <h2 class="award-year">2019</h2>
+            <p class="award-description">
+                The tournament grew, adding an ODI format with 16 teams participating. Team Thunder triumphed, led by Amit Singh’s brilliant captaincy. Record audience attendance marked this year as the stepping stone towards becoming a major cricket event.
+            </p>
+          </div>
+        </div>
+
+        <div class="award-item">
+          <img
+            src="assets/his3.jpg"
+            alt="Award icon for 2023"
+            class="award-icon"
+          />
+          <div>
+            <h2 class="award-year">2023</h2>
+            <p class="award-description">
+                Teams from across the country joined the competition. Team Titans won the title, with all-rounder Sara Khan making history by becoming the first female centurion in the tournament. The matches were streamed online, gathering thousands of viewers.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- history section ends-->
+
+
+
+
+  <!-- sponsers Section  starts-->
+<div class="bg-green-300 bg-sponsors text-gray-800 ">
+
+  <div class="text-center py-16">
+    <h1 class="text-4xl font-bold text-white">WickPlay Sponsers</h1>
+    <p class="text-lg text-yellow-200 mt-4">"Thank you to our sponsors for their unwavering support and commitment to the spirit of cricket!"</p>
+  </div>
+
+  <div class="container mx-auto px-8">
+    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      
+      <div class="bg-white shadow-lg p-6 rounded-lg flex flex-col items-center">
+        <img src="assets/s1.jpg" alt="Google Sheets" class="mb-4">
+        <h3 class="text-lg font-semibold">SportPro Gear</h3>
+        <p class="text-sm text-gray-600">Top provider of high-quality cricket equipment and apparel</p>
+      </div>
+      <div class="bg-white shadow-lg p-6 rounded-lg flex flex-col items-center">
+        <img src="assets/s2.jpg" alt="Plotly" class="mb-4">
+        <h3 class="text-lg font-semibold">Victory Beverages</h3>
+        <p class="text-sm text-gray-600"> Refreshing drinks designed to energize athletes and fans alike.</p>
+      </div>
+
+      <div class="bg-white shadow-lg p-6 rounded-lg flex flex-col items-center">
+        <img src="assets/s3.jpg" alt="Excel" class="mb-4">
+        <h3 class="text-lg font-semibold">Cricket Stars Clothing</h3>
+        <p class="text-sm text-gray-600">Stylish and comfortable clothing for cricket enthusiasts and players</p>
+      </div>
+
+      <div class="bg-white shadow-lg p-6 rounded-lg flex flex-col items-center">
+        <img src="assets/s4.jpg" alt="Tableau" class="mb-4">
+        <h3 class="text-lg font-semibold">Prime Fitness Solutions</h3>
+        <p class="text-sm text-gray-600">Expert fitness equipment to enhance player performance and training."
+        </p>
+      </div>
+
+      <div class="bg-white shadow-lg p-6 rounded-lg flex flex-col items-center">
+        <img src="assets/s5.jpg" alt="Infogram" class="mb-4">
+        <h3 class="text-lg font-semibold">Elite Sports Nutrition</h3>
+        <p class="text-sm text-gray-600">Premium nutrition supplements tailored for peak athletic performance.</p>
+      </div>
+
+    
+      <div class="bg-white shadow-lg p-6 rounded-lg flex flex-col items-center">
+        <img src="assets/s6.jpg" alt="AppGyver" class="mb-4">
+        <h3 class="text-lg font-semibold">Elite Sports Nutrition</h3>
+        <p class="text-sm text-gray-600">Premium nutrition supplements tailored for peak athletic performance."</p>
+      </div>
+
+      <div class="bg-white shadow-lg p-6 rounded-lg flex flex-col items-center">
+        <img src="assets/s7.jpg" alt="CartoDB" class="mb-4">
+        <h3 class="text-lg font-semibold">Champion Sportswear</h3>
+        <p class="text-sm text-gray-600">Durable and trendy sportswear for cricket players of all levels."
+        </p>
+      </div>
+
+      <div class="bg-white shadow-lg p-6 rounded-lg flex flex-col items-center">
+        <img src="assets/s8.jpg" alt="Blockspring" class="mb-4">
+        <h3 class="text-lg font-semibold">Dynamic Sports Tech</h3>
+        <p class="text-sm text-gray-600">Innovative technology solutions for enhanced game analysis and performance."</p>
+      </div>
+
+    
+      <div class="bg-white shadow-lg p-6 rounded-lg flex flex-col items-center">
+        <img src="assets/s9.jpg" alt="Your business" class="mb-4">
+        <h3 class="text-lg font-semibold">Speedy Sports Shoes</h3>
+        <p class="text-sm text-gray-600">Comfortable and durable shoes designed for optimal on-field performance</p>
+      </div>
+    </div>
+    <div class="flex justify-center mt-8 p-8">
+        <a href="/contact" class="bg-blue-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-blue-700 transition duration-300">
+          Become a Sponsor
+        </a>
+      </div>
+  </div>
+</div>
+<!-- sponsers Section  ends-->
+
+
+
+
+
+
+
+
+    <!-- footer section starts -->
+     
+<footer class="footer">
+    <h2 class="footer-heading">FOLLOW US</h2>
+    <div class="footer-container">
+       
+        <!-- Quick Links -->
+        <div class="footer-column">
+            <h2 class="footer-heading">Quick Links</h2>
+            <ul class="footer-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Tournaments</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Social Media Links</a></li>
+            </ul>
+        </div>
+
+      
+       <!-- social media -->
+        <div class="footer-column">
+            <h2 class="footer-heading ">Social Media</h2>
+            <ul class="social-links ">
+                <li><a href="#" class="social-icon sl"><i class="fab fa-facebook"></i> Facebook</a></li>
+                <li><a href="#" class="social-icon sl"><i class="fab fa-twitter"></i> Twitter</a></li>
+                <li><a href="#" class="social-icon sl"><i class="fab fa-instagram"></i> Instagram</a></li>
+            </ul>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="footer-column">
+            <h2 class="footer-heading">Contact Information</h2>
+            <p>Address: WRJG+G39 Stadium House, Veer Nariman Rd, Churchgate, Mumbai, Maharashtra 400020</p>
+            <p>Phone: +91 123-456-7890</p>
+            <p>Email: wickyplay@gmail.com</p>
+            <p>Office Hours: Mon-Fri 9:00am - 6:00pm IST</p>
+        </div>
+    </div>
+
+   
+
+    <!-- Copyright -->
+    <div class="footer-bottom">
+        <p>© 2024 WickPlay Organizations. All rights reserved.</p>
+    </div>
+</footer>
+<!-- footer Section  ends-->
+
+
+<script src="app.js"></script>
+</body>
+</html>
